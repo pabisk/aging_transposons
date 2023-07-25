@@ -1,0 +1,9 @@
+channels:
+ - r
+ - conda-forge
+ - bioconda
+ - biobuilds
+dependencies:
+ - r-base=4.0
+ - r-stringr=1.4
+ - r-data.table=1.14.2

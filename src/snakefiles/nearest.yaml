@@ -1,0 +1,10 @@
+channels:
+ - bioconda
+ - anaconda
+ - conda-forge
+dependencies:
+ - bedtools=2.30.0
+ - bedops=2.4.39
+ - python=3.7.1
+ - numpy=1.15.4
+ - samtools=1.15

@@ -1,0 +1,6 @@
+channels:
+ - conda-forge
+ - bioconda
+ - biobuilds
+dependencies:
+ - samtools=1.11

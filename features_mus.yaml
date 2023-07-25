@@ -1,0 +1,18 @@
+# Paths to mouse_references
+# all refs are or should be M27
+# source: http://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M27/
+
+reference:
+    genome_fasta: data/mouse_reference/GRCm39.primary_assembly.genome.fa
+    reference_gtf: data/mouse_reference/gencode.vM27.primary_assembly.annotation.gtf
+    # retro_gtf: data/mouse_reference/mm10_rmsk_TE.gtf ## from hammel lab
+    retro_gtf: data/mouse_reference/GRCm39_rmsk_TE.gtf ## trying out using this one
+    retro_locus_gtf: data/mouse_reference/GRCm39refGene.gtf
+    retro_locus_te: data/mouse_reference/GRCm39_rmsk_TE.gtf ## double check this, why are some CDS and others not?
+    retro_locus_intron: data/mouse_reference/GRCm39refGene_intron_TE_intervals.gtf
+    retro_locus_exon_te: data/mouse_reference/rmsk_TE_exonic.gtf
+    retro_locus_intergenic_te: data/mouse_reference/rmsk_TE_intergenic.gtf
+    telocus_gtf: data/mouse_reference/telocal/mm39_rmsk_TE.gtf.locInd
+    telocus_gtf_l1em_diy: data/x/clean_active_lines3.gtf.locInd # TBD
+    decoy_gtf: data/x/mini.gtf # TBD
+

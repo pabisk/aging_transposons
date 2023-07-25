@@ -1,0 +1,6 @@
+channels:
+ - bioconda
+ - conda-forge
+dependencies:
+ - htseq=2.0.1
+ - bioconductor-rsubread=2.8.1

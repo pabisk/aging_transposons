@@ -1,0 +1,8 @@
+channels:
+ - conda-forge
+ - bioconda
+ - biobuilds
+dependencies:
+ - star=2.7.8a
+ - pigz=2.4
+ - samtools=1.11

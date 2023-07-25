@@ -1,0 +1,6 @@
+channels:
+ - bioconda
+ - conda-forge
+dependencies:
+ - tetranscripts=2.2.1
+ - libblas=3.9.0

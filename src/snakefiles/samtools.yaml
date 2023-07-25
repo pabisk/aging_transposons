@@ -1,0 +1,7 @@
+channels:
+ - bioconda
+ - bioconda/label/cf201901
+ - conda-forge
+dependencies:
+ - samtools=1.14
+ - libgcc-ng=11.2.0

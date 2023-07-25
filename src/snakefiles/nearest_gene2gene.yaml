@@ -1,0 +1,10 @@
+channels:
+ - bioconda
+ - conda-forge
+dependencies:
+ - cgat-apps=0.6.5
+ - bedtools=2.30.0
+ - bedops=2.4.39
+ - r-dplyr=1.0.9
+ - r-data.table=1.14.2
+ 

@@ -1,0 +1,18 @@
+# Paths to human references
+# reference_gtf: data/reference/gencode.v36.annotation.gtf
+# genome_fasta: data/reference/GRCh38.primary_assembly.genome.fa
+# transcriptome_fasta: data/reference/gencode.v36.transcripts.fa
+# from hammel lab http://hammelllab.labsites.cshl.edu/software/#TEtranscripts
+
+reference:
+    genome_fasta: data/human_reference/GRCh38.primary_assembly.genome.fa
+    reference_gtf: data/human_reference/gencode.v39.annotation.gtf
+    retro_gtf: data/human_reference/GRCh38_GENCODE_rmsk_TE.gtf
+    retro_locus_gtf: data/human_reference/GRCh38refGene.gtf
+    retro_locus_te: data/human_reference/rmsk_TE.gtf
+    retro_locus_intron: data/human_reference/GRCh38refGene_intron_TE_intervals.gtf
+    retro_locus_exon_te: data/human_reference/rmsk_TE_exonic.gtf
+    retro_locus_intergenic_te: data/human_reference/rmsk_TE_intergenic.gtf
+    telocus_gtf: data/human_reference/GRCh38_GENCODE_rmsk_TE.gtf.locInd # from hammel lab
+    telocus_gtf_l1em_diy: data/human_reference/clean_active_lines3.gtf.locInd # human, modified from the file provided by L1EM
+    decoy_gtf: data/human_reference/mini.gtf # empty GENIC gtf for line1 estimation, here we do not want any reads to be redistributed to genes
