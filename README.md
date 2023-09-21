@@ -10,3 +10,5 @@ Requires: conda, mamba, snakemake
 
 Run with the following command, e.g.:  
 time snakemake --use-conda --reason -j 8 --resources load=100 --restart-times 0 --conda-frontend mamba --keep-going  
+
+If there is an initial error message, simply re-try with the same command.
